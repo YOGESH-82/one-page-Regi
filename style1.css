@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(#a619f8,#00f2fe);
+}
+
+.logo {
+    margin-left: 25px;
+    margin-top: 15px;
+    width: 15vw;
+    height: 5vh;
+    background-image: url("../img/outline-LOCKENE-white-logo-1-1.png");
+    background-position: center;
+    background-size: cover;
+    filter: drop-shadow(10px 10px 10px #fff);
+    
+}
+
+.left-side {
+height: 100vh;
+}
+
+.right-side {
+    height: 100vh;
+    border-top-left-radius: 5rem;
+    border-bottom-left-radius: 5rem;
+    background-image: url("../img/img4.1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+    
+}
+.form-group input {
+    margin: 0.5rem 0;
+    padding: 0.5rem 4rem;
+    border-radius: 1rem;
+    outline: none;
+    border: none;
+
+}
+
+
+.term a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.term span {
+    color: #fff;
+}
+
+.box-1 {
+    height: 70vh;
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    /* border: 2px solid black; */
+    position: relative;
+}
+.icon{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 20px;
+    color: gray;
+    /* border: 2px solid red; */
+}
+
+.btn button {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #fff;
+    background:#4169E1;
+    margin: 0rem -13px;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.8rem;
+    cursor: pointer;
+}
+
+.btn button:hover {
+    background-color:#a1b2e3;
+    color: #000000;
+}
+
+.box2 {
+    height: 70vh;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   position: relative;
+ 
+}
+
+.box2-1 {
+    min-width: 50vw;
+}
+
+.box2-1 .p1 {
+    font-size: 4rem;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+}
+
+.box2-1 .p2 {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.box2-1 .p3 {
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.d2 .s2 {
+    margin: 0 0.5rem;
+}
+
+#error-message{
+    color:red;
+}
+.error{
+    display: none;
+}
+
+.scroll{
+    height: 40vh;
+    /* overflow: hidden; */
+    overflow-y: scroll;
+    color: #fff;
+    margin: 10px 0;
+    padding: 10px 0;
+    /* box-shadow: 5px 12px 10px 1px gray; */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), /* bottom shadow */
+    0 -4px 8px rgba(0, 0, 0, 0.1), /* top shadow */
+    4px 0 8px rgba(0, 0, 0, 0.1), /* right shadow */
+    -4px 0 8px rgba(0, 0, 0, 0.1); /* left shadow */
+}
+
+#teamsize{
+    margin-top: 10px;
+}
+.head2{
+    color: #fff;
+    margin-top: 10px;
+}
+
+.roll{
+    border: 1px solid rgb(234, 234, 255);
+    margin: 10px;
+    padding: 5px;
+    border-radius: 15px;
+    min-width: 82%;
+ 
+}
+.thank{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem
+}
+
+.roll:hover{
+    background-color: rgb(189, 183, 183);
+}
+
+.all-ready{
+    display: none;
+}
+
+
+/* Styles for mobile devices */
+@media (max-width: 767px) {
+    .right-side{
+        border-top-left-radius: 2rem;
+        border-top-right-radius: 2rem;
+        border-bottom-left-radius: 0rem;
+        display: none;
+
+    }
+    .logo{
+        margin-top: 9rem;
+    }
+
+    .all-ready{
+        color: #fff;
+        letter-spacing: 0.1rem;
+        font-weight: 400;
+        display: contents;
+    }
+    .all-ready a{
+        text-decoration: none;
+        font-weight: 500;
+
+    }
+    .head-1 h3{
+        margin-top: -60px;
+        font-size: 22px;
+        margin-right: 50px;
+        margin-bottom: 10px;
+    }
+
+        .term{
+            /* border: 2px solid red; */
+            font-size: 0.8rem;
+            margin-top: 9px;
+            width: 300px;
+        }
+
+    .form-group input {
+        margin:0.5rem;
+        padding:0.5rem 3rem;
+        border-radius: 1rem;
+        min-width: 280px;
+    }
+    .form-group{
+        margin-left: -20px;
+    }
+    
+    .icon{
+      
+        margin-top: 20px;
+        margin-left: 25px;
+     
+        /* border: 2px solid red; */
+    }
+
+    .logo {
+        margin-left: 25px;
+        margin-top: 25px;
+        width: 270px;
+        height: 49px;
+       
+        
+    }
+
+    .box-1 {
+        margin-top: 2rem;
+      
+    }
+    .btn button {
+        font-size: 1.2rem;
+        font-weight: 5;
+        margin: 1rem 20px;
+        padding: 0.5rem 1rem;
+        border: none;
+        border-radius: 0.8rem;
+        cursor: pointer;
+    }
+
+    .d2 .s2 {
+        margin: 0 1rem;
+    }
+}

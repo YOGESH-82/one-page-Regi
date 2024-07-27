@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="widthbody-row=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./auth.css">
+
+</head>
+
+<body>
+
+    <section>
+        <div class="container-fluid h-100">
+
+            <!-- Page1 -->
+            <div id="step1" class="step">
+                <div class="row h-100">
+
+                    <!-- regi-left-page1 -->
+                    <div class="col-md-5 col-12">
+
+                        <div class="row mt-1">
+                            <div class="col-12 regilogo">
+                                <img class="img-fluid" src="./img/outline-LOCKENE-white-logo-1-1.png" alt="IMG">
+                            </div>
+                        </div>
+
+                        <div class="row mt-5 ">
+
+                            <div class="col-12">
+                                <div class="regih1 text-white">
+                                    <h3>Get Started With Your Email</h3>
+                                </div>
+                            </div>
+
+                            <div class="col-12">
+                                <div class="row justify-content-center">
+                                    <div class="col-md-10 col-11">
+
+                                        <form class="row form-row mt-4 justify-content-center" action="">
+
+                                            <div class="input-group mb-3">
+                                                <span class="input-group-text" id="basic-addon1"> <i
+                                                        class="fa fa-user icon"></i></span>
+                                                <input type="text" class="form-control" id="fullname"
+                                                    placeholder="Full Name" aria-label="Username"
+                                                    aria-describedby="basic-addon1">
+                                            </div>
+
+                                            <div class="input-group mb-3">
+                                                <span class="input-group-text" id="basic-addon2"> <i
+                                                        class="fa fa-building icon"></i></span>
+                                                <input type="text" class="form-control" id="companyname"
+                                                    placeholder="Company Name" aria-label="Companyname"
+                                                    aria-describedby="basic-addon2">
+                                            </div>
+
+                                            <div class="input-group mb-3">
+                                                <span class="input-group-text" id="basic-addon3"><i
+                                                        class="fa fa-phone icon"></i></span>
+                                                <input type="number" class="form-control" id="number"
+                                                    placeholder="Number" aria-label="Number"
+                                                    aria-describedby="basic-addon3">
+                                            </div>
+
+                                            <div class="input-group mb-3">
+                                                <span class="input-group-text" id="basic-addon4"><i
+                                                        class="fa fa-envelope icon"></i></span>
+                                                <input type="email" class="form-control" id="email" placeholder="Email"
+                                                    aria-label="Email" aria-describedby="basic-addon4">
+                                            </div>
+
+                                            <div class="input-group mb-3">
+                                                <span class="input-group-text" id="basic-addon5"> <i
+                                                        class="fa fa-lock icon"></i></span>
+                                                <input type="password" class="form-control" id="password"
+                                                    placeholder="Password" aria-label=""
+                                                    aria-describedby="basic-addon5">
+                                            </div>
+                                            <div class="term ms-4">
+                                                <input id="check_1" name="check_1" type="checkbox" required>
+                                                <span class="text-white">i read and agree to</span>
+                                                <a class="text-white text-decoration-none " href="#">
+                                                    Terms & Conditions</input>
+                                                </a>
+                                            </div>
+
+                                            <div class="all-ready ms-4 mt-2 text-white">
+                                                <p>Already Registered? <span><a class="text-decoration-none regilogin"
+                                                            href="./index.html">Login</a></span></p>
+                                            </div>
+
+                                            <div>
+                                                <button class="btn1" id="regibtn1">Get Started</button>
+                                            </div>
+
+                                            <!-- <div class="" id="error_message">
+                                                <h4>Details required !</h4>
+                                            </div> -->
+                                        </form>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <!-- regi-right-page1 -->
+                    <div class="col-md-7 col-12 regi-right-page1  d-sm-block d-none border">
+
+                    </div>
+                </div>
+            </div>
+            <!-- Page1 End -->
+
+            <!-- Page2 -->
+            <div id="step2" class="step" style="display:none;">
+                <div class="row h-100">
+
+                    <!-- regiNext-left-page1 -->
+                    <div class="col-md-5 col-12">
+
+                        <div class="row mt-1">
+                            <div class="col-12 regilogo">
+                                <img class="img-fluid" src="./img/outline-LOCKENE-white-logo-1-1.png" alt="IMG">
+                            </div>
+                        </div>
+
+                        <div class="row mt-5 ">
+
+                            <div class="col-12">
+                                <div>
+                                    <button class="btnreginext ms-5" id="reginextbtn1back"><img
+                                            src="./img/icons8-left-arrow-24.png" alt=""></button>
+                                </div>
+                            </div>
+
+                            <div class="col-12">
+                                <div class="row justify-content-center">
+                                    <div class="col-md-10 col-11">
+
+                                        <form class="row form-row mt-4 justify-content-center" action="">
+
+                                            <div class="input-group mb-3">
+                                                <span class="input-group-text" id="basic-addon1"><i
+                                                        class="fa fa-map-marker icon"></i></span>
+                                                <input type="text" class="form-control" id="address"
+                                                    placeholder="Address" aria-label="address"
+                                                    aria-describedby="basic-addon1">
+                                            </div>
+
+                                            <div class="input-group mb-3">
+                                                <span class="input-group-text" id="basic-addon1"> <i
+                                                        class="fa fa-map icon"></i></span>
+                                                <input type="text" class="form-control" id="google_address"
+                                                    placeholder="Google Address" aria-label="google_address"
+                                                    aria-describedby="basic-addon1">
+                                            </div>
+
+                                            <div class="input-group mb-3">
+                                                <span class="input-group-text" id="basic-addon1"> <i
+                                                        class="fa fa-flag icon "></i></span>
+                                                <input type="text" class="form-control" id="country"
+                                                    placeholder="Country" aria-label="country"
+                                                    aria-describedby="basic-addon1">
+                                            </div>
+
+                                            <div class="input-group mb-3">
+                                                <span class="input-group-text" id="basic-addon1"><i
+                                                        class="fa fa-map-signs icon"></i></span>
+                                                <input type="text" class="form-control" id="state" placeholder="State"
+                                                    aria-label="state" aria-describedby="basic-addon1">
+                                            </div>
+
+                                            <div class="input-group mb-3">
+                                                <span class="input-group-text" id="basic-addon1"> <i
+                                                        class="fa fa-city icon u-icon"></i></span>
+                                                <input type="text" class="form-control" id="zipcode" placeholder="City"
+                                                    aria-label="city" aria-describedby="basic-addon1">
+                                            </div>
+
+
+                                            <div class="input-group mb-3">
+                                                <span class="input-group-text" id="basic-addon1"> <i
+                                                        class="fa fa-envelope icon u-icon"></i></span>
+                                                <input type="text" class="form-control" id="city" placeholder="Zipcode"
+                                                    aria-label="city" aria-describedby="basic-addon1">
+                                            </div>
+
+
+
+                                            <!-- <div class="" id="error_message">
+                                                <h4>Details required !</h4>
+                                            </div> -->
+                                        </form>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12">
+                                <div>
+                                    <button class="btnreginext ms-5" id="reginextbtn2next"><img
+                                            src="./img/right button.png" alt=""></button>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- regiNext-right-page1  -->
+                    <div class="col-md-7 col-12 reginext-right-page1  d-sm-block d-none regi-right-page1">
+
+                    </div>
+
+                </div>
+            </div>
+            <!-- Page2 End-->
+
+
+            <!-- Page3 -->
+            <div id="step3" class="step" style="display:none;">
+                <div class="row h-100">
+
+                    <!-- regiNext-left-page1 -->
+                    <div class="col-md-5 col-12">
+
+                        <div class="row mt-1">
+                            <div class="col-12 regilogo">
+                                <img class="img-fluid" src="./img/outline-LOCKENE-white-logo-1-1.png" alt="IMG">
+                            </div>
+                        </div>
+
+                        <div class="row mt-5 ">
+
+                            <div class="col-12">
+                                <div>
+                                    <button class="btnreginext ms-5" id="regi-page3-btn-back"><img
+                                            src="./img/icons8-left-arrow-24.png" alt=""></button>
+                                </div>
+                            </div>
+
+                            <div class="col-12">
+                                <div class="row justify-content-center">
+                                    <div class="col-md-10 col-11">
+
+                                        <form class="row form-row mt-4 justify-content-center" action="">
+
+                                            <div class="input-group mb-3">
+                                                <span class="input-group-text" id="basic-addon1"><i
+                                                        class="fa fa-users icon"></i></span>
+                                                <input type="number" class="form-control" id="teamsize"
+                                                    placeholder="Team Size" aria-label="teamsize"
+                                                    aria-describedby="basic-addon1">
+                                            </div>
+
+                                            <div class="head2">
+                                                <h5>Industry type</h5>
+                                            </div>
+
+                                            <div class="scroll">
+
+                                                <div class="scroll_container">
+
+                                                    <label class="roll"><input type="radio" name="option" value="1">
+                                                        Sales Manager</label>
+                                                    <label class="roll"><input type="radio" name="option" value="2">
+                                                        Marketing / PR Manag</label>
+                                                    <label class="roll"><input type="radio" name="option" value="3">
+                                                        Customer Service Man</label>
+                                                    <label class="roll"><input type="radio" name="option" value="4"> CxO
+                                                        / GeneralManage</label>
+                                                    <label class="roll"><input type="radio" name="option" value="5"> IT
+                                                        Manager</label>
+                                                    <label class="roll"><input type="radio" name="option" value="6">
+                                                        Operations Manager</label>
+                                                    <label class="roll"><input type="radio" name="option" value="7">
+                                                        Developer / Software</label>
+                                                    <label class="roll"><input type="radio" name="option" value="8">
+                                                        Student / Personal </label>
+                                                    <label class="roll"><input type="radio" name="option" value="8">
+                                                        Other </label>
+                                                </div>
+
+                                            </div>
+
+
+
+
+                                            <!-- <div class="" id="error_message">
+                                                <h4>Details required !</h4>
+                                            </div> -->
+                                        </form>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12">
+                                <div>
+                                    <button class="btnreginext ms-5" id="regi-page3-btn-next"><img
+                                            src="./img/right button.png" alt=""></button>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- regiNext-right-page1  -->
+                    <div class="col-md-7 col-12 reginext-right-page3  d-sm-block d-none regi-right-page1">
+
+                    </div>
+
+                </div>
+            </div>
+            <!-- Page3 End -->
+
+            <!-- Page4 -->
+            <div id="step4" class="step" style="display:none;">
+                <div class="row h-100">
+
+                    <!-- regiNext-left-page1 -->
+                    <div class="col-md-5 col-12">
+
+                        <div class="row mt-1">
+                            <div class="col-12 regilogo">
+                                <img class="img-fluid" src="./img/outline-LOCKENE-white-logo-1-1.png" alt="IMG">
+                            </div>
+                        </div>
+
+                        <div class="row mt-5 ">
+                            <div class="col-12">
+                                <div class="row justify-content-center">
+                                    <div class="col-md-10 col-11">
+
+                                        <div>
+                                            <h1>Thank You</h1>
+                                            <h3>Your Data Successfully Sumbit</h3>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12">
+                                <div class="text-white">
+                                    <span><a class="text-decoration-none btnreginext text-white fw-bold"
+                                                href="./index.html">Login</a></span>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- regiNext-right-page1  -->
+                    <div class="col-md-7 col-12 reginext-right-page3  d-sm-block d-none regi-right-page1">
+
+                    </div>
+
+                </div>
+            </div>
+            <!-- Page4 End -->
+
+
+
+
+
+
+        </div>
+    </section>
+
+
+
+
+    <script src="./auth.js"></script>
+</body>
+
+</html>
